@@ -1,0 +1,39 @@
+#google-logo {
+    object-position: center;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+#nav-bar-left {
+        float: left;
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 10px;
+      }
+
+#nav-bar-right {
+    float: right;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-size: 14px;
+    margin-left: 35px;
+
+}
+
+.search-bar {
+    margin-left: 575px;
+    margin-top: 25px;
+    width: auto;
+    length: 300%;
+}
+
+.search-bar input {
+    length: 500px;
+}
