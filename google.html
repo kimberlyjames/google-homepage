@@ -1,24 +1,74 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="google.css"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> </head>
-      <div>
-      <nav id="nav-bar-left">
-          <a href="about" class="nav-link"> About </a>
-          <a href="store" class="nav-link"> Store</a>
-      </nav>
-      <nav id="nav-bar-right">
-        <a href="Gmail" class="nav-link"> Gmail </a>
-        <a href="Images" class="nav-link"> Images </a>
-        <i class="material-icons">&#xe5c3;</i>
-    </nav>
-    </div>
-    <body>
-        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
-            <div class="search-bar">
-                <input type="text"> 
-            </input>
 
-         </div>    
-    </body>
+<head>
+    <link rel="stylesheet" href="google.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-nav-bar">
+            <a href="about" class="nav-link"> About </a>
+            <a href="store" class="nav-link"> Store</a>
+        </div>
+        <div class="right-nav-bar">
+            <a href="Gmail" class="nav-link"> Gmail </a>
+            <a href="Images" class="nav-link"> Images </a>
+            <i class="material-icons">&#xe5c3;</i>
+        </div>
+    </div>
+
+    <div class="logo">
+        <img id="google-logo"
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+    </div>
+    <div class="search-bar">
+        <input type="text" class="search"> </input>
+    </div>
+    <div class="search-button">
+        <button type="button">Google Search</button> <button type="button"> I'm Feeling Lucky</button>
+    </div>
+</body>
+<footer>
+
+</footer>
+<div class="footer-div">
+    <!-- footer-div = flex row-->
+    <div class="footer-text-1">
+        <!-- flex item -->
+        <a href="carbon" class="carbon-neutral">Carbon neutral since 2007 </a>
+    </div>
+    <div class="bottom-row">
+        <div class="footer-text-left">
+            <!-- flex item -->
+            <a href="advertising" class="advertising"> Advertising </a>
+            <a href="business" class="business"> Business</a>
+            <a href="how-search-works" class="how-search-works">How Search Works</a>
+        </div>
+        <div class="footer-text-right">
+            <!-- flex item -->
+            <a href="privacy" class="privacy"> Privacy </a>
+            <a href="terms" class="terms"> Terms</a>
+            <a href="settings" class="settings">Settings</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Example Footer
+<div class="footer">
+    <div class="footer-top-row">
+        <a href="carbon" class="carbon-neutral">Carbon neutral since 2007 </a>
+    </div>
+    <div class="footer-bottom-row">
+        <div class="footer-bottom-row-left">
+
+        </div>
+        <div class="footer-bottom-row-right">
+
+        </div>
+    </div>
+</div>-->
+
+
 </html>

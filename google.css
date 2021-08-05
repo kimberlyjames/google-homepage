@@ -1,23 +1,35 @@
 #google-logo {
-    object-position: center;
+    
+}
+
+.logo {
+    text-align: center;
     margin-top: 200px;
-    margin-left: 400px;
 }
 
-#nav-bar-left {
-        float: left;
-        font-size: 20px;
-        margin-left: 50px;
-        margin-top: 10px;
-      }
-
-#nav-bar-right {
-    float: right;
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: 20px;
-    margin-top: 10px;
+.container {
+    display: flex;
+    flex-direction: row;
 }
+
+.left-nav-bar {
+    display: flex;
+    margin-left: 25px;
+    flex: 1;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.right-nav-bar {
+    display: flex;
+    margin-right: 100px;
+    flex: 1;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -25,15 +37,101 @@ a {
     font-size: 14px;
     margin-left: 35px;
 
+
+}
+
+.material-icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+
+}
+
+.search-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    
 }
 
 .search-bar {
-    margin-left: 575px;
-    margin-top: 25px;
-    width: auto;
-    length: 300%;
+    text-align: center;
+}   
+
+input{
+    width: 20%;
+    border: 1px solid grey;
+    border-radius: 50px;
+    height: 50px;
 }
 
-.search-bar input {
-    length: 500px;
+.footer-div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #F4F4F4;
+    color: #CDCDCD;
+    width: 100%;
+    margin-top: 20px;
 }
+
+.carbon-neutral {
+    color: #787878;
+
+
+}
+.footer-text-1 {
+    text-align: center;
+    color: #CDCDCD;
+    margin-top: 25px;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.footer-text-left {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.footer-text-right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}   
+
+.advertising {
+    color: #787878;
+
+}
+
+.business {
+    color: #787878;
+}
+
+.privacy {
+    color: #787878;
+}
+
+.how-search-works {
+    color: #787878;
+}
+
+.terms {
+    color: #787878;
+}
+
+.settings {
+    color: #787878;
+}
+
